@@ -11799,13 +11799,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "0.0.2-rc.1",
+    "version": "0.0.3-rc.1",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alina\\Documents\\alinalr\\alinalr.csproj",
+      "projectUniqueName": "C:\\Users\\Alina\\Desktop\\LR_3\\alinalr.csproj",
       "projectName": "MyApp",
-      "projectPath": "C:\\Users\\Alina\\Documents\\alinalr\\alinalr.csproj",
+      "projectPath": "C:\\Users\\Alina\\Desktop\\LR_3\\alinalr.csproj",
       "packagesPath": "C:\\Users\\Alina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alina\\Documents\\alinalr\\obj\\",
+      "outputPath": "C:\\Users\\Alina\\Desktop\\LR_3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

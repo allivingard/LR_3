@@ -12,3 +12,17 @@ c:\Users\Alina\Documents\alinalr\obj\Debug\netcoreapp2.1\alinalr.AssemblyInfo.cs
 c:\Users\Alina\Documents\alinalr\obj\Debug\netcoreapp2.1\alinalr.RazorTargetAssemblyInfo.cache
 c:\Users\Alina\Documents\alinalr\obj\Debug\netcoreapp2.1\alinalr.dll
 c:\Users\Alina\Documents\alinalr\obj\Debug\netcoreapp2.1\alinalr.pdb
+C:\Users\Alina\Desktop\LR_3\bin\Debug\netcoreapp2.1\alinalr.deps.json
+C:\Users\Alina\Desktop\LR_3\bin\Debug\netcoreapp2.1\alinalr.runtimeconfig.json
+C:\Users\Alina\Desktop\LR_3\bin\Debug\netcoreapp2.1\alinalr.runtimeconfig.dev.json
+C:\Users\Alina\Desktop\LR_3\bin\Debug\netcoreapp2.1\alinalr.dll
+C:\Users\Alina\Desktop\LR_3\bin\Debug\netcoreapp2.1\alinalr.pdb
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.csprojAssemblyReference.cache
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.csproj.CoreCompileInputs.cache
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.RazorAssemblyInfo.cache
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.RazorAssemblyInfo.cs
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.AssemblyInfoInputs.cache
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.AssemblyInfo.cs
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.RazorTargetAssemblyInfo.cache
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.dll
+C:\Users\Alina\Desktop\LR_3\obj\Debug\netcoreapp2.1\alinalr.pdb
