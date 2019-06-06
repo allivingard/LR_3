@@ -3,10 +3,10 @@
   <PropertyGroup>
 
    <TargetFramework>netcoreapp2.1</TargetFramework>
-   <Version>0.0.3-rc.1</Version>
+   <Version>0.0.4-rc.1</Version>
    <Authors>A.Vinogradova A.Andreeva</Authors>
    <Company>blablabla777.com</Company>
-   <Product>Lab 3</Product>
+   <Product>Lab 4</Product>
    <PackageId>MyApp</PackageId>
    <FileVersion>0.0.1</FileVersion>
 
