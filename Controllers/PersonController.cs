@@ -12,7 +12,12 @@ namespace Lr1WebApi.Controllers
     [ApiController]
     public class PersonController : ControllerBase
     {
-        private static IStorage<PersonModel> _memCache = new MemCache();
+        private IStorage<PersonModel> _memCache;
+
+        public PersonController(IStorage<PersonModel> memCache)
+        {
+            _memCache = memCache;
+        }
 
         [HttpGet]
         public ActionResult<IEnumerable<PersonModel>> Get()
