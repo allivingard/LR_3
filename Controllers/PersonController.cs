@@ -4,6 +4,7 @@ using System.Net;
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 using Lr1WebApi.Models;
+using Lr1WebApi.Storage;
 
 namespace Lr1WebApi.Controllers
 {
@@ -11,18 +12,18 @@ namespace Lr1WebApi.Controllers
     [ApiController]
     public class PersonController : ControllerBase
     {
-        private static List<PersonModel> _memCache = new List<PersonModel>();
+        private static IStorage<PersonModel> _memCache = new MemCache();
 
         [HttpGet]
         public ActionResult<IEnumerable<PersonModel>> Get()
         {
-            return Ok(_memCache);
+            return Ok(_memCache.All);
         }
 
         [HttpGet("{id}")]
-        public ActionResult<PersonModel> Get(int id)
+        public ActionResult<PersonModel> Get(Guid id)
         {
-            if (_memCache.Count <= id) return NotFound("No such");
+            if (!_memCache.Has(id)) return NotFound("No such");
 
             return Ok(_memCache[id]);
         }
@@ -40,9 +41,9 @@ namespace Lr1WebApi.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Put(int id, [FromBody] PersonModel value)
+        public IActionResult Put(Guid id, [FromBody] PersonModel value)
         {
-            if (_memCache.Count <= id) return NotFound("No such");
+            if (!_memCache.Has(id)) return NotFound("No such");
 
             var validationResult = value.Validate();
 
@@ -55,9 +56,9 @@ namespace Lr1WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
-        public IActionResult Delete(int id)
+        public IActionResult Delete(Guid id)
         {
-            if (_memCache.Count <= id) return NotFound("No such");
+            if (!_memCache.Has(id)) return NotFound("No such");
 
             var valueToRemove = _memCache[id];
             _memCache.RemoveAt(id);

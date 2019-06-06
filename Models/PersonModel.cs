@@ -7,6 +7,7 @@ namespace Lr1WebApi.Models
 {
     public class PersonModel
     {
+         public Guid Id { get; set; } = Guid.Empty;
         public string Name { get; set; }
         public string SurName { get; set; }
         public int Age { get; set; }
